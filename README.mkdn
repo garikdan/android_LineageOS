@@ -1,0 +1,43 @@
+LineageOS
+===========
+
+
+Getting Started
+---------------
+
+To get started with Android/LineageOS, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+    repo init -u git://github.com/garikdan/android_LineageOS.git -b cm-13.0
+
+Then to sync up:
+
+    repo sync
+
+Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
+
+To Build
+---------------
+
+Then to sync up:
+
+    source build/envsetup.sh
+    brunch cm_X50TS-userdebug
+    
+Credits
+---------------
+
+        # fire855
+        
+        # ferhung-mtk
+        
+        # Tirth Patel
+        
+        # all those who initially brought up Android M to MTK
+
+
